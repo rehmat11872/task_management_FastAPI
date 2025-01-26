@@ -183,11 +183,19 @@ docker-compose exec db psql -U task_user -d task_db
 # List tables
 \dt
 
-# Describe the users table
-\d users
 
 # Select all users
-SELECT * FROM users
+SELECT * FROM users;
+
+# Select all tasks
+SELECT * FROM tasks;
+
+# Delete a specific record
+DELETE FROM users WHERE id = 1;
+
+# delete all users 
+DELETE FROM users;
+
 
 ```
 ---
