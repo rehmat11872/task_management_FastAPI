@@ -201,7 +201,7 @@ SELECT * FROM users
 ---
 
 ### Contributing
-If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
+If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changese...
 
 ---
 
